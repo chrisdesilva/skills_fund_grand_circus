@@ -13,7 +13,7 @@ export const schoolInfo = { // term details section
     APRRange60: '12.41 - 12.71%',
     interestOnly: [
         { // for multiple examples of interest only, add items to interestOnly array
-            programName: 'the Front-End, Java, or C#/.NET Bootcamps',
+            programName: 'the Front-End, Java, Unity, or C#/.NET Bootcamps',
             APR36: '11.16%',
             financeCharge36: '$2,293.64',
             IOPayment36: '$77.91',
@@ -85,13 +85,13 @@ export const faq = { // faq section
     loanRange: [
         {
             programName: "the Front-End, Java, C#/.NET, and After-Hours Front-End Coding Bootcamps",
-            maxAmount: "$9,750",
+            maxAmount: "$11,500",
             col: true,
-            colAmount: "$2,000"
+            colAmount: "$2,500"
         },
         {
-            programName: "the After-Hours C#/.NET Coding Bootcamp",
-            maxAmount: "$8,950",
+            programName: "the After-Hours C#/.NET Coding Bootcamp and Part-Time Unity Bootcamp",
+            maxAmount: "$11,500",
             col: false,
             colAmount: "$6,000"
         },
@@ -121,7 +121,7 @@ export const threeStepCardText = {
     step1: "",
     step2: {
         header: "select your program",
-        text: "Choose between the Front-End, Java, C#/.NET, After-Hours C#/.NET, and After-Hours Front-End Coding Bootcamps."
+        text: "Choose between the Front-End, Java, C#/.NET, After-Hours C#/.NET, Part-Time Unity, and After-Hours Front-End Coding Bootcamps."
     },
     step3: `You'll be on your way to an exciting career in tech as part of ${schoolName}'s powerful network.`
 }
@@ -152,7 +152,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
         name: "Front-End Bootcamp",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKGCFE18",
         loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 11750,
+            maxLoanAmt: 14000,
             loanTerm36: true,
             loanTerm60: true,
             '0': { // interest-only 
@@ -170,7 +170,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
           {
             location: "Metro 1",
             loanInfo: { // // match loanInfo to Program 1 above
-              maxLoanAmt: 11750,
+              maxLoanAmt: 14000,
               loanTerm36: true,
               loanTerm60: true,
               '0': { 
@@ -187,7 +187,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
         name: "Java Bootcamp",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKGCJAV18",
         loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 11750,
+            maxLoanAmt: 14000,
             loanTerm36: true,
             loanTerm60: true,
             '0': { 
@@ -205,7 +205,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
             {
               location: "Metro 1",
               loanInfo: { // match loanInfo to Program 2 loanInfo above
-                maxLoanAmt: 11750,
+                maxLoanAmt: 14000,
                 loanTerm36: true,
                 loanTerm60: true,
                 '0': { 
@@ -222,7 +222,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
         name: "C#/.NET Bootcamp",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKGCNET18",
         loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 11750,
+            maxLoanAmt: 14000,
             loanTerm36: true,
             loanTerm60: true,
             '0': { 
@@ -240,7 +240,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
             {
               location: "Metro A",
               loanInfo: { // match loanInfo to Program 3 loanInfo above
-                maxLoanAmt: 11750,
+                maxLoanAmt: 14000,
                 loanTerm36: true,
                 loanTerm60: true,
                 '0': { 
@@ -257,7 +257,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
         name: "C#/.NET After-Hours Bootcamp",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKGCPNE18",
         loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 8950,
+            maxLoanAmt: 11500,
             loanTerm36: true,
             loanTerm60: true,
             '0': null,
@@ -274,7 +274,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
             {
               location: "Metro A",
               loanInfo: { // match loanInfo to Program 3 loanInfo above
-                maxLoanAmt: 8950,
+                maxLoanAmt: 11500,
                 loanTerm36: true,
                 loanTerm60: true,
                 '0': null,
@@ -290,7 +290,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
         name: "Front-End After-Hours Bootcamp",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKGCPTFE17",
         loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 11750,
+            maxLoanAmt: 14000,
             loanTerm36: true,
             loanTerm60: true,
             '0': { 
@@ -308,7 +308,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
             {
               location: "Metro A",
               loanInfo: { // match loanInfo to Program 3 loanInfo above
-                maxLoanAmt: 11750,
+                maxLoanAmt: 14000,
                 loanTerm36: true,
                 loanTerm60: true,
                 '0': { 
@@ -320,11 +320,46 @@ export const programLoanInfo = [ // update with program names and corresponding 
               }
             }
           ]
+    },
+    {
+        name: "Part-Time Unity Bootcamp",
+        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKGCPTU18",
+        loanInfo: { // match loanInfo in first metro below
+            maxLoanAmt: 11500,
+            loanTerm36: true,
+            loanTerm60: true,
+            '0': { 
+                k: 5, 
+                apr36: 11.16, 
+                apr60: 12.51
+            },
+            '1': null
+        },
+        defaultLoanType: "0", // leave at 0 for interest-only, set to 1 for immediate repayment
+        showMetros: false,
+        showLoanTypes: false,
+        locations: ["Metro A", "Metro B", "Metro C"],
+        metros: [
+            {
+              location: "Metro A",
+              loanInfo: { // match loanInfo to Program 3 loanInfo above
+                maxLoanAmt: 11500,
+                loanTerm36: true,
+                loanTerm60: true,
+                '0': { 
+                    k: 5, 
+                    apr36: 11.16, 
+                    apr60: 12.51
+                },
+                '1': null
+              }
+            }
+          ]
     }
 ]
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
-export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $9,750 for Front-End, C#/.NET, Java, and Front-End After-Hours tuition and up to $2,000 for cost of living, or up to $8,950 for C#/.NET After-Hours tuition."
+export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $11,500 for Front-End, C#/.NET, Java, and Front-End After-Hours tuition and up to $2,000 for cost of living, or up to $11,500 for C#/.NET After-Hours or Part-Time Unity tuition."
 
 export const paymentTable = {
     headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
