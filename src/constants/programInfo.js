@@ -359,7 +359,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
 ]
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
-export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $11,500 for Front-End, C#/.NET, Java, and Front-End After-Hours tuition and up to $2,000 for cost of living, or up to $11,500 for C#/.NET After-Hours or Part-Time Unity tuition."
+export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $11,500 for Front-End, C#/.NET, Java, and Front-End After-Hours tuition and up to $2,500 for cost of living, or up to $11,500 for C#/.NET After-Hours or Part-Time Unity tuition."
 
 export const paymentTable = {
     headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
